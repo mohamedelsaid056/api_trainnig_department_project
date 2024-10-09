@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "F6kL8WG06rwD7ArooZdS46gjAJZ/AItnS9XBvme1gFA=",
+  "Source": "department",
+  "BasePath": "_content/department",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "department\\wwwroot",
+      "Source": "department",
+      "ContentRoot": "C:\\Users\\Mohamed\\Downloads\\Downloads\\New folder\\department\\wwwroot\\",
+      "BasePath": "_content/department",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Mohamed\\Downloads\\Downloads\\New folder\\department\\wwwroot\\htmlpage.html",
+      "SourceId": "department",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mohamed\\Downloads\\Downloads\\New folder\\department\\wwwroot\\",
+      "BasePath": "_content/department",
+      "RelativePath": "htmlpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\htmlpage.html"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<body>
+
+    <h1>try to fetch data as html consumer </h1>
+    <p>fetching data from the server</p>
+    <button onclick="fetchData()">fetch data</button>
+    <div id="datadiv"></div>
+
+</body>
+<script>
+    async function fetchData() {
+        try {
+            document.getElementById("datadiv").innerHTML = ""; // Clear previous data
+            const response = await fetch('http://localhost:5059/api/Department');
+            const data = await response.json(); // Changed to JSON parsing
+            console.log(data);
+            data.forEach(item => { // Using forEach for cleaner iteration
+                console.log(item.name);
+                document.getElementById("datadiv").innerHTML += item.name + "<br>";
+            }
+
+
+            );
+
+        } catch (error) {
+            console.error(error);
+        }
+    }
+</script>
+
+</html>
