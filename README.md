@@ -28,13 +28,14 @@ graph TD;
 This project is a web application built using ASP.NET Core, which includes several key components and services to manage departments, employees, and user accounts. The application is structured with a focus on modularity and security, utilizing various ASP.NET Core features.
 
 ## Table of Contents
-- [Technologies Used](#Technologies)
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
+
 
 ## Technologies
 ###
@@ -57,10 +58,26 @@ This project is a web application built using ASP.NET Core, which includes sever
 
 ###
 
+
+
 <div align="left">
 </div>
 
 ###
+
+
+
+
+## Dependencies
+
+
+- **Microsoft.AspNetCore.Authentication.JwtBearer**:.
+- **Microsoft.AspNetCore.Identity.EntityFrameworkCore**:.
+- **Microsoft.EntityFrameworkCore.Design**:.
+- **Microsoft.EntityFrameworkCore.SqlServer**:.
+- **Microsoft.EntityFrameworkCore.Tools**:.
+
+- 
 
 ## Installation
 
